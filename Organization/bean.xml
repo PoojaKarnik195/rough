@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+
+<bean id="object" class="com.cg.dependency.Address">
+<property name="line1">
+<value>Capgemini Knowledge Park</value>
+</property>
+<property name="line2">
+<value>Airoli</value>
+</property>
+<property name="city">
+<value></value>
+</property>
+<property name="state">
+<value>Maharashtra</value>
+</property>
+
+	private int pinCode;
+	private String country;
+
+</bean>
+</beans>
